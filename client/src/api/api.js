@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://mirepositorio.onrender.com';
+
 
 // Función para enviar consultas
 export const sendConsultation = async (formData) => {
