@@ -1,0 +1,66 @@
+/* Fondo azul medianoche para el body */
+html, body {
+  background-color: #191970 !important; /* Azul medianoche */
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Código fuente */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Mostrar secciones */
+.show {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: #191970 !important; /* Azul medianoche */
+  margin: 0 auto; /* Agrega una línea inferior */
+}
+
+/* Estilo de los enlaces de la barra de navegación */
+.nav-link {
+  color: #fff !important; /* Cambia el color del texto a blanco */
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Estilo para los enlaces activos en la navegación */
+.nav-link.active {
+  color: #ffeb3b !important; /* Color amarillo brillante para el enlace activo */
+}
+
+/* Cambiar el color del texto del portafolio para mayor visibilidad */
+h1, p, .display-4 {
+  color: #ffffff !important; /* Cambiar el color del texto a blanco */
+}
+
+.card-dark {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco para contraste */
+}
+
+.card-dark .card-title,
+.card-dark .card-text {
+  color: #fff; /* Asegúrate de que el texto del título y del cuerpo sea blanco */
+}
+
+.card-dark .btn-primary {
+  background-color: #007bff; /* Color del botón */
+  border-color: #007bff; /* Borde del botón */
+}
+
+.card-dark .btn-primary:hover {
+  background-color: #0056b3; /* Color del botón al pasar el ratón */
+  border-color: #0056b3; /* Borde del botón al pasar el ratón */
+}
