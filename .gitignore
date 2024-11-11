@@ -1,0 +1,5 @@
+# Entornos de desarrollo
+.env
+
+# Dependencias de Node.js
+node_modules/
